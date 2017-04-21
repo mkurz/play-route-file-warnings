@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+GET        /favicon.ico controllers.Assets.at(path="/public",file="/images/favicon.ico")
+
+GET        /favicon.png controllers.Assets.at(path="/public",file="/images/favicon.png")
+
+GET        /robots.txt             controllers.Assets.at(path="/public",file="robots.txt")
