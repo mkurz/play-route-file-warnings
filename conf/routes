@@ -8,3 +8,8 @@ GET        /favicon.ico controllers.Assets.at(path="/public",file="/images/favic
 GET        /favicon.png controllers.Assets.at(path="/public",file="/images/favicon.png")
 
 GET        /robots.txt             controllers.Assets.at(path="/public",file="robots.txt")
+
+
+
+# Adding this line gets rid of the "Unused import" warning
+# GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
